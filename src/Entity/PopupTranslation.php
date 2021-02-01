@@ -75,7 +75,7 @@ class PopupTranslation extends AbstractTranslation implements PopupTranslationIn
         return $this->buttonText;
     }
 
-    public function setButtonText(string $buttonText): void
+    public function setButtonText(?string $buttonText): void
     {
         $this->buttonText = $buttonText;
     }
@@ -85,7 +85,7 @@ class PopupTranslation extends AbstractTranslation implements PopupTranslationIn
         return $this->buttonLink;
     }
 
-    public function setButtonLink(string $buttonLink): void
+    public function setButtonLink(?string $buttonLink): void
     {
         $this->buttonLink = $buttonLink;
     }
